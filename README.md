@@ -12,7 +12,7 @@ The dataset is imbalanced.<br>
 Most features are categorical (Nominal, Ordinal, Binary), some with high cardinality.<br>
 Missing imputation can be a part of your pipeline as well.<br>
 
-Features
+**Features**
 
 enrollee_id : Unique ID for candidate
 
@@ -41,3 +41,29 @@ last_new_job: Difference in years between previous job and current job
 training_hours: training hours completed
 
 target: 0 – Not looking for job change, 1 – Looking for a job change
+
+**ML Operations**'
+1.imported basic python libraries and modules like numpy and pandas <br>
+2.basic exploratory data analysis(check for null values, datatypes, unique data,etc)<br>
+3.Used mapping to encode ordinal features(categorical features) to numeric<br>
+4.Set of columns to be transformed in different ways<br>
+
+categorical column-->Fill missing values and One Hot Encoder
+
+Numerical Column-->Fill missing values and Scaling<br>
+5.made seperate set of categorical and numerical columns <br>
+6.Created Pipleline for numerical and categorical Features<br>
+7.Created ColumnTransformer to Apply the Pipeline for Each Column Set<br>
+8.Added desired model to pipeline by creating a new pipeline<br>
+9.combine numerical and categorical features, then split train and test data. After this train the model pipeline<br>
+10.we can save and load the<br>
+10.we can save and load the pipeline to file to use it whenever we want without going through all the previous steps<br>
+11.we can get and then set new parameter for this pipeline to improve this model's accuracy.<br>
+12.to find best parameter we will tune the hyperparameter using GridSearchCV<br>
+13.set a range of hyperparameters and find the best set among that range<br>
+14.With the pipeline, we can create data transformation steps in the pipeline and perform a grid search to find the best step. A grid search will select which step to skip and compare the result of each case.<br>
+15.used a list of dictionaries for the grid search parameters(to find which data transformation step is best)<br>
+[{case 1},{case 2}]<br>
+16.found the best hyperparameter sets and the best data preparation method by adding tuning parameters to the dictionary of each case of the data preparation method.<br>
+![image.png](attachment:image.png)<br>
+17.Similarly you can check for different ml models and choose that gives highest accuracy.<br>
