@@ -42,7 +42,7 @@ training_hours: training hours completed
 
 target: 0 – Not looking for job change, 1 – Looking for a job change
 
-**ML Operations**'
+**ML Operations**<br>
 1.imported basic python libraries and modules like numpy and pandas <br>
 2.basic exploratory data analysis(check for null values, datatypes, unique data,etc)<br>
 3.Used mapping to encode ordinal features(categorical features) to numeric<br>
