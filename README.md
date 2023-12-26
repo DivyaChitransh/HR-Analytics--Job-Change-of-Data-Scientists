@@ -65,5 +65,5 @@ Numerical Column-->Fill missing values and Scaling<br>
 15.used a list of dictionaries for the grid search parameters(to find which data transformation step is best)<br>
 [{case 1},{case 2}]<br>
 16.found the best hyperparameter sets and the best data preparation method by adding tuning parameters to the dictionary of each case of the data preparation method.<br>
-![image.png](attachment:image.png)<br>
+![image](https://github.com/DivyaChitransh/HR-Analytics--Job-Change-of-Data-Scientists/assets/147910649/5857328a-8756-4fac-9317-feb4b87f6898)<br>
 17.Similarly you can check for different ml models and choose that gives highest accuracy.<br>
